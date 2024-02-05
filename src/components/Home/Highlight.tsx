@@ -1,5 +1,8 @@
 import React from "react";
 import { FaLock } from "react-icons/fa";
+import { FaBox } from "react-icons/fa";
+import { FaHandHoldingHeart } from "react-icons/fa";
+
 
 const Highlight = () => {
   return (
@@ -18,7 +21,7 @@ const Highlight = () => {
 
         <div className=" flex mx-10 gap-4">
           <div className=" h-10 w-10 rounded-full bg-[#2c541d] flex justify-center items-center">
-            <FaLock color="white"/>
+            <FaBox color="white"/>
           </div>
           <div>
             <div className=" font-medium text-sm">SECURE PAYMENT</div>
@@ -29,7 +32,7 @@ const Highlight = () => {
 
         <div className=" flex mx-10 gap-4">
           <div className=" h-10 w-10 rounded-full bg-[#2c541d] flex justify-center items-center">
-            <FaLock color="white"/>
+            <FaHandHoldingHeart color="white"/>
           </div>
           <div>
             <div className=" font-medium text-sm">SECURE PAYMENT</div>
