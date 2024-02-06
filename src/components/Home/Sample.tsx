@@ -3,7 +3,10 @@ import React from "react";
 const Sample = () => {
   return (
     <>
-      <div className="w-full flex justify-center items-center gap-5 p-14" style={{ height: "90vh" }}>
+      <div
+        className="w-full flex justify-center items-center gap-5 p-14 relative top-[100px]"
+        style={{ height: "90vh" }}
+      >
         <div className=" w-1/4 ">
           <img
             src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Poster5-1000x1000.jpg"

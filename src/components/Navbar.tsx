@@ -6,7 +6,7 @@ import { FaUser } from "react-icons/fa";
 const Navbar = () => {
   return (
     <>
-      <div className="min-h-24 flex justify-between items-center z-10 bg-transparent absolute pr-20 pl-40 w-11/12">
+      <div className="min-h-24 flex flex-wrap justify-between items-center z-10 bg-transparent  mx-auto max-w-[1180px] px-4">
         <div className="font-bold text-2xl tracking-widest ">EARTH STORE</div>
         <div className="flex gap-8">
           <ul className="flex gap-8 items-center tracking-widest">

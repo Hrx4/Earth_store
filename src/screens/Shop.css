@@ -1,0 +1,9 @@
+.range-slider__range {
+    background: black !important;
+    height: 1px !important;
+}
+.range-slider__thumb{
+    background: #74a84a !important;
+    height: 16px !important;
+    width: 16px !important;
+}
