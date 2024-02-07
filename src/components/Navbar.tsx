@@ -33,7 +33,9 @@ const Navbar = () => {
           </ul>
           <ul className="flex gap-4 items-center">
             <li>
+              <Link to={"/cart"}>
               <FaShoppingBag size={27} />
+              </Link>
             </li>
             <li>
               <FaUser size={24} />

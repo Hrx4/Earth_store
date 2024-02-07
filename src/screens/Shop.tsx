@@ -3,13 +3,14 @@ import { VscSearch } from "react-icons/vsc";
 import RangeSlider from "react-range-slider-input";
 import "react-range-slider-input/dist/style.css";
 import "./Shop.css";
+import { Link } from "react-router-dom";
 const Shop = () => {
-  const [minValue, setminValue] = useState(0);
-  const [maxValue, setmaxValue] = useState(500);
+  const [minValue, setminValue] = useState(25);
+  const [maxValue, setmaxValue] = useState(75);
   return (
     <>
       <div className=" h-px w-full bg-gray-100"></div>
-      <div className=" max-w-[1220px] py-16 pr-5 mx-auto h-auto px-5">
+      <div className=" max-w-[1180px] py-16 mx-auto h-auto px-5">
         <div className=" w-full  flex">
           <div className=" w-[29.7%]  flex flex-col gap-11  pr-10">
             <div className="flex  justify-between">
@@ -28,7 +29,7 @@ const Shop = () => {
                 <RangeSlider
                   min={0}
                   max={500}
-                  onInput={(value: [number ,number]) => {
+                  onInput={(value: [number, number]) => {
                     setminValue(value[0]);
                     setmaxValue(value[1]);
                   }}
@@ -95,51 +96,59 @@ const Shop = () => {
             </div>
             <div className="grid grid-cols-3 gap-5 ">
               <div className=" h-80 flex-col gap-2 mb-10">
-                <img
-                  className=" max-w-full"
-                  src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1-1000x1000.jpg"
-                  alt=""
-                />
+                <Link to={"/product/p"}>
+                  <img
+                    className=" max-w-full"
+                    src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1-1000x1000.jpg"
+                    alt=""
+                  />
+                </Link>
                 <div className=" text-sm text-gray-500 mt-1">Postcards</div>
                 <div className=" font-semibold mt-2">Postcard V1</div>
                 <div className=" text-sm text-gray-500 font-bold mt-1">
-                  $23.99
+                  ₹ 23.99
                 </div>
               </div>
               <div className=" h-80 flex-col gap-2 mb-10">
-                <img
-                  className="max-w-full"
-                  src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1-1000x1000.jpg"
-                  alt=""
-                />
+                <Link to={"/product/p"}>
+                  <img
+                    className="max-w-full"
+                    src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1-1000x1000.jpg"
+                    alt=""
+                  />
+                </Link>
                 <div className=" text-sm text-gray-500 mt-1">Postcards</div>
                 <div className=" font-semibold mt-2">Postcard V1</div>
                 <div className=" text-sm text-gray-500 font-bold mt-1">
-                  $23.99
+                  ₹ 23.99
                 </div>
               </div>
               <div className=" h-80 flex-col gap-2 mb-10">
-                <img
-                  className="max-w-full"
-                  src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1-1000x1000.jpg"
-                  alt=""
-                />
+                <Link to={"/product/p"}>
+                  <img
+                    className="max-w-full"
+                    src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1-1000x1000.jpg"
+                    alt=""
+                  />
+                </Link>
                 <div className=" text-sm text-gray-500 mt-1">Postcards</div>
                 <div className=" font-semibold mt-2">Postcard V1</div>
                 <div className=" text-sm text-gray-500 font-bold mt-1">
-                  $23.99
+                  ₹ 23.99
                 </div>
               </div>
               <div className=" h-80 flex-col gap-2 mb-10">
-                <img
-                  className="max-w-full"
-                  src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1-1000x1000.jpg"
-                  alt=""
-                />
+                <Link to={"/product/p"}>
+                  <img
+                    className="max-w-full"
+                    src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1-1000x1000.jpg"
+                    alt=""
+                  />
+                </Link>
                 <div className=" text-sm text-gray-500 mt-1">Postcards</div>
                 <div className=" font-semibold mt-2">Postcard V1</div>
                 <div className=" text-sm text-gray-500 font-bold mt-1">
-                  $23.99
+                  ₹ 23.99
                 </div>
               </div>
             </div>

@@ -7,6 +7,8 @@ import Shop from './screens/Shop'
 import Contact from './screens/Contact'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Product from './screens/Product'
+import Cart from './screens/Cart'
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
       <Route path='/about' element={<About/>}/>
       <Route path='/shop' element={<Shop/>}/>
       <Route path='/contact' element={<Contact/>}/> 
+      <Route path='/product/:id' element={<Product/>}/>
+      <Route path='/cart' element={<Cart/>}/>
      </Routes>
      <Footer/>
     </>
