@@ -1,5 +1,6 @@
 import React from "react";
 import { RxCrossCircled } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   return (
@@ -114,9 +115,10 @@ const Cart = () => {
             </div>
             <div className=" h-px w-full bg-gray-200"></div>
 
+            <Link to={"/checkout"}>
             <div className="bg-[#74a84a] p-5 text-white flex  text-center items-center justify-center mt-5">
               PROCEED TO CHECKOUT
-            </div>
+            </div></Link>
           </div>
         </div>
       </div>
