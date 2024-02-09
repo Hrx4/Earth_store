@@ -52,9 +52,9 @@ const Checkout = () => {
             <div className=" w-full mt-5">
               <div className=" text-gray-600 font-bold">Country / Region</div>
               <CountryDropdown
+              classes=" h-12 border outline-none w-full"
                 value={country}
                 onChange={(val) => setCountry(val)}
-                className="h-12 border outline-none w-full"
               />
             </div>
             <div className=" w-full mt-5">
@@ -84,7 +84,7 @@ const Checkout = () => {
                 country={country}
                 value={region}
                 onChange={(val) => setRegion(val)}
-                className="h-12 border outline-none w-full"
+                classes=" h-12 border outline-none w-full"
               />
             </div>
             <div className=" w-full mt-5">
