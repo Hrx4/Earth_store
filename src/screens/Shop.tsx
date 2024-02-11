@@ -11,8 +11,8 @@ const Shop = () => {
     <>
       <div className=" h-px w-full bg-gray-100"></div>
       <div className=" max-w-[1180px] py-16 mx-auto h-auto px-5">
-        <div className=" w-full  flex">
-          <div className=" w-[29.7%]  flex flex-col gap-11  pr-10">
+        <div className=" w-full flex md:flex-row flex-col gap-5 md:gap-0">
+          <div className=" md:w-[29.7%]  flex flex-col gap-11  pr-10">
             <div className="flex  justify-between">
               <input
                 type="text"
@@ -70,7 +70,7 @@ const Shop = () => {
             </div>
           </div>
           <div className=" h-auto w-px bg-gray-100"></div>
-          <div className=" w-[70%] flex flex-col gap-11 pl-10">
+          <div className=" md:w-[70%] flex flex-col gap-11 md:pl-10">
             <div className=" text-gray-500">Home / Shop</div>
             <div className="text-[#74a84a] font-normal text-6xl">Shop</div>
             <div className=" flex h-12 items-center justify-between">
@@ -94,8 +94,8 @@ const Shop = () => {
                 </option>
               </select>
             </div>
-            <div className="grid grid-cols-3 gap-5 ">
-              <div className=" h-80 flex-col gap-2 mb-10">
+            <div className="grid md:grid-cols-3 grid-cols-1 gap-5 ">
+              <div className="  flex-col gap-2 mb-10">
                 <Link to={"/product/p"}>
                   <img
                     className=" max-w-full"
@@ -109,7 +109,7 @@ const Shop = () => {
                   ₹ 23.99
                 </div>
               </div>
-              <div className=" h-80 flex-col gap-2 mb-10">
+              <div className="  flex-col gap-2 mb-10">
                 <Link to={"/product/p"}>
                   <img
                     className="max-w-full"
@@ -123,7 +123,7 @@ const Shop = () => {
                   ₹ 23.99
                 </div>
               </div>
-              <div className=" h-80 flex-col gap-2 mb-10">
+              <div className="  flex-col gap-2 mb-10">
                 <Link to={"/product/p"}>
                   <img
                     className="max-w-full"
@@ -137,7 +137,7 @@ const Shop = () => {
                   ₹ 23.99
                 </div>
               </div>
-              <div className=" h-80 flex-col gap-2 mb-10">
+              <div className="  flex-col gap-2 mb-10">
                 <Link to={"/product/p"}>
                   <img
                     className="max-w-full"

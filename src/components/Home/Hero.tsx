@@ -4,18 +4,17 @@ const Hero = () => {
   return (
     <>
       <div
-        className="absolute top-0 -z-10 gap-8 bg-center bg-[url('https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Banner.jpg')] bg-cover w-full justify-center items-center flex flex-col"
-        style={{ height: "96vh" }}
+        className="md:h-[96vh] h-[60vh] absolute top-0 -z-10 gap-8 bg-center bg-[url('https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Banner.jpg')] bg-cover w-full justify-center items-center flex flex-col"
       ></div>
       <div
-        className="-z-10 gap-8 w-full justify-center items-center flex flex-col"
-        style={{ height: "74vh" }}
+        className="md:h-[80vh] h-[48vh] -z-10 gap-8 w-full justify-center items-center flex flex-col"
+        
       >
         <div className=" flex flex-col justify-center items-center gap-3">
-          <div className=" text-7xl font-semibold tracking-widest text-[#2c541d]">
+          <div className=" md:text-7xl text-5xl font-semibold tracking-widest text-[#2c541d]">
             EARTH
           </div>
-          <div className=" text-4xl font-extralight tracking-widest">
+          <div className=" md-text-4xl text-2xl font-extralight tracking-widest">
             MULTIPURPOSE STORE
           </div>
         </div>

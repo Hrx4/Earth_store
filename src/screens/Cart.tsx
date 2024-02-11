@@ -8,8 +8,8 @@ const Cart = () => {
       <div className="max-w-[1180px] py-16 mx-auto px-5 h-auto ">
         <div className=" text-3xl">Cart</div>
         {/* List */}
-        <div className="w-full mt-5 ">
-          <table className="w-full border">
+        <div className="w-full mt-5  overflow-x-scroll">
+          <table className="w-[1150px] border">
             <thead className=" h-14  font-semibold text-gray-600 border bg-gray-100">
               <td></td>
               <td></td>
@@ -18,7 +18,7 @@ const Cart = () => {
               <td>Quantity</td>
               <td>Subtotal</td>
             </thead>
-            <tbody className="border">
+            <tbody className="border ">
               <td className=" p-3 ">
                 <RxCrossCircled
                   size={22}
@@ -80,7 +80,7 @@ const Cart = () => {
               <td>₹ 23.99</td>
             </tbody>
           </table>
-          <div className=" h-16 w-full border flex justify-between p-3">
+          <div className="  w-full border md:flex justify-between p-3">
             <div className=" flex gap-5">
               <input
                 type="text"
@@ -93,13 +93,13 @@ const Cart = () => {
                 APPLY COUPON
               </div>
             </div>
-            <div className=" tracking-widest bg-[#74a84a] p-2 w-44 text-center text-white">
+            <div className=" tracking-widest bg-[#74a84a] p-2 md:w-44 md:mt-0 mt-5 text-center text-white">
               UPDATE CART
             </div>
           </div>
         </div>
         {/* Total */}
-        <div className="w-1/2 ml-auto border mt-10">
+        <div className="md:w-1/2 ml-auto border mt-10">
           <div className=" h-14  font-semibold  border bg-gray-100 text-xl p-4">
             Cart totals
           </div>

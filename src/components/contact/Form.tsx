@@ -10,8 +10,8 @@ import { FaPlay } from "react-icons/fa";
 const Form = () => {
   return (
     <>
-      <div className=" flex h-screen w-full gap-28 items-center px-52 my-20">
-        <div className=" h-5/6  w-full justify-around flex flex-col">
+      <div className=" lg:flex  w-full gap-28 items-center lg:px-32 px-10 my-32">
+        <div className="  w-full justify-around flex flex-col">
           <div className=" text-4xl font-medium">Get In Touch</div>
           <div className=" shadow-md h-5/6 p-10 flex flex-col">
             <form action="" className=" flex flex-col h-full justify-evenly">
@@ -41,10 +41,10 @@ const Form = () => {
           </div>
         </div>
 
-        <div className=" h-5/6  w-full justify-around flex flex-col">
+        <div className="   w-full justify-around flex flex-col lg:mt-0 mt-20">
           <div className=" text-4xl font-medium">Talk To Us</div>
           <div className=" h-5/6  flex flex-col gap-14 mt-5">
-            <div className="flex h-16  gap-6 ">
+            <div className="flex   gap-6 ">
               <div className="border rounded-full h-10 w-10 flex justify-center items-center border-[#74a84a]">
                 <CiMail />
               </div>
@@ -53,7 +53,7 @@ const Form = () => {
                 <div className=" text-2xl">something@tyler.com</div>
               </div>
             </div>
-            <div className="flex h-16  gap-6 ">
+            <div className="flex   gap-6 ">
               <div className="border rounded-full h-10 w-10 flex justify-center items-center border-[#74a84a]">
                 <MdOutlinePhoneInTalk />
               </div>
@@ -62,7 +62,7 @@ const Form = () => {
                 <div className=" text-2xl">202-555-0188</div>
               </div>
             </div>
-            <div className="flex h-16  gap-6 ">
+            <div className="flex   gap-6 ">
               <div className="border rounded-full h-10 w-10 flex justify-center items-center border-[#74a84a]">
                 <CiLocationOn />
               </div>

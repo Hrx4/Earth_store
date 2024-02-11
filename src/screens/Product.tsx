@@ -10,9 +10,9 @@ const Product = () => {
       <div className=" max-w-[1180px] py-16  mx-auto h-auto px-5 ">
         {/* Details Section */}
 
-        <div className="flex justify-between mb-20">
+        <div className="md:flex justify-between mb-20">
           <img
-            className=" w-1/2"
+            className=" md:w-1/2"
             src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1.jpg"
             alt=""
           />
@@ -160,8 +160,8 @@ const Product = () => {
         {/* Related Products */}
         <div className=" mt-14">
           <div className=" font-bold text-4xl">Related Products</div>
-          <div className="grid grid-cols-4 gap-5 mt-7">
-            <div className=" h-80 flex-col gap-2 mb-10">
+          <div className="grid sm:grid-cols-4 gap-5 mt-7">
+            <div className="flex-col gap-2 mb-10">
               <img
                 className=" max-w-full"
                 src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1-1000x1000.jpg"
@@ -173,7 +173,7 @@ const Product = () => {
                 ₹ 23.99
               </div>
             </div>
-            <div className=" h-80 flex-col gap-2 mb-10">
+            <div className="flex-col gap-2 mb-10">
               <img
                 className=" max-w-full"
                 src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/11/Postcard1-1000x1000.jpg"

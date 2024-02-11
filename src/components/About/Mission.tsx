@@ -4,10 +4,9 @@ const Mission = () => {
   return (
     <>
       <div
-        className="flex justify-center items-center"
-        style={{ height: "96vh" }}
+        className="flex justify-center items-center py-24"
       >
-        <div className="flex justify-center items-center w-3/4 gap-20">
+        <div className="lg:flex justify-center items-center w-3/4 gap-20">
           <div className=" flex-1">
             <img
               src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Our-Mission-min.jpg"
@@ -15,7 +14,7 @@ const Mission = () => {
               className=" h-full object-cover w-full"
             />
           </div>
-          <div className=" flex-1 flex flex-col gap-5">
+          <div className=" flex-1 flex flex-col gap-5 lg:mt-0 mt-16">
             <div className=" font-medium text-4xl tracking-widest">
               OUR MISSION
             </div>

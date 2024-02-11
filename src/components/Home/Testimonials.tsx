@@ -4,14 +4,14 @@ import { FaQuoteLeft } from "react-icons/fa";
 const Testimonials = () => {
   return (
     <>
-      <div className=" flex flex-col justify-center  w-3/4 m-auto gap-10 p-5" style={{ height: "80vh" }}>
+      <div className=" flex flex-col justify-center  w-3/4 m-auto gap-10 p-5 py-20" >
         <div className=" font-medium text-4xl">What Our Customers Say</div>
-        <div className=" flex flex-row justify-between items-center">
-        <div className="flex flex-col gap-4">
+        <div className=" md:flex flex-row justify-between items-center ">
+        <div className="flex flex-col gap-4 md:w-1/4 mt-10">
           <FaQuoteLeft size={24} color="#2c541d"/>
           <div className=" font-normal text-base text-left text-[#585858]">
-            Fast shipping and excellent customer <br /> service. The product was even
-            better <br /> than expected. I will definitely be a <br /> returning customer.
+            Fast shipping and excellent customer  service. The product was even
+            better  than expected. I will definitely be a  returning customer.
           </div>
           <img
             className=" rounded-full h-10 w-10"
@@ -20,11 +20,11 @@ const Testimonials = () => {
           />
           <div className=" font-semibold text-xs tracking-widest">JENNIFER LEWIS</div>
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 md:w-1/4 mt-10">
           <FaQuoteLeft size={24} color="#2c541d"/>
           <div className=" font-normal text-base text-left text-[#585858]">
-            Fast shipping and excellent customer <br /> service. The product was even
-            better <br /> than expected. I will definitely be a <br /> returning customer.
+            Fast shipping and excellent customer  service. The product was even
+            better  than expected. I will definitely be a  returning customer.
           </div>
           <img
             className=" rounded-full h-10 w-10"
@@ -33,11 +33,11 @@ const Testimonials = () => {
           />
           <div className=" font-semibold text-xs tracking-widest">JENNIFER LEWIS</div>
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 md:w-1/4 mt-10">
           <FaQuoteLeft size={24} color="#2c541d"/>
           <div className=" font-normal text-base text-left text-[#585858]">
-            Fast shipping and excellent customer <br /> service. The product was even
-            better <br /> than expected. I will definitely be a <br /> returning customer.
+            Fast shipping and excellent customer  service. The product was even
+            better  than expected. I will definitely be a  returning customer.
           </div>
           <img
             className=" rounded-full h-10 w-10"

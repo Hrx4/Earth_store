@@ -20,8 +20,8 @@ const Checkout = () => {
             Click here to enter your code
           </div>
         </div>
-        <div className=" w-full flex mt-5">
-          <div className=" w-3/5  pr-5">
+        <div className=" w-full lg:flex mt-5">
+          <div className=" lg:w-3/5  pr-5">
             <div className=" font-extrabold text-xl">Billing details</div>
             <div className=" h-px w-full bg-gray-100"></div>
             <div className=" flex gap-5 w-full mt-5">
@@ -124,8 +124,8 @@ const Checkout = () => {
               />
             </div>
           </div>
-          <div className=" w-2/5 ">
-            <div className=" w-11/12 ml-auto border-2 p-5">
+          <div className=" lg:w-2/5 mt-10 lg:mt-0">
+            <div className=" lg:w-11/12 ml-auto border-2 p-5">
               <div className="font-extrabold text-xl ">Your order</div>
               <div className="mt-5">
                 <div className="flex w-full text-gray-600 font-semibold justify-between">
